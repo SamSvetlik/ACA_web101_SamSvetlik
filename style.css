@@ -1,9 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color:mediumpurple
+    background-color: silver;
+    background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px),
+    linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
   }
   /* What kind of selector is this? */
   .logo {
@@ -42,8 +45,8 @@ body {
 
   .has-border {
     border-radius: 25px;
-    border: 8px solid #0795C3;
-    background: none;
+    border: 8px solid #003a8c;
+    background: #987a9c;
     padding: 10px;
   }
 
@@ -90,7 +93,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
+    background: rgba(0,58,140,255);
     padding: 20px;
     padding-bottom: 5%;
     text-align: center;
