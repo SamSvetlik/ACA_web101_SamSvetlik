@@ -47,12 +47,12 @@ body {
     border-radius: 25px;
     border: 8px solid #003a8c;
     background: #987a9c;
-    padding: 10px;
+    padding: 16px;
   }
 
   nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     width: 100%;
     padding-right: 2%;
   }
