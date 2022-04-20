@@ -1,0 +1,33 @@
+header{
+    display: grid;
+    grid-template-areas: 
+    "pic name"
+    "title bio";
+    grid-template-rows: 1fr .125fr;
+    grid-template-columns: 1fr 3fr;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "top top top"
+    "contact creds creds"
+    "contact creds creds";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#header {
+    grid-area: top;
+}
+#contact {
+    grid-area: contact;
+}
+#creds {
+    grid-area: creds;
+}
+
+#name{
+    font-size: 36pt;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
