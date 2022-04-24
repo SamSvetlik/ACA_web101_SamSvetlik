@@ -1,15 +1,17 @@
 body{
     display: grid;
     grid-template-areas:
-    "pic name name"
-    "title bio bio"
-    "contact creds creds"
-    "contact creds creds";
+    "pic name name name"
+    "title bio bio bio"
+    "contact creds creds creds"
+    "contact creds creds creds";
     grid-template-rows: 120px 50px 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: 'Montserrat', sans-serif;
     width: 8.5in;
     height: 11in;
+    margin-top: 20px;
+    background-color:  #f9fffb;
 
 }
 
@@ -17,10 +19,18 @@ body{
     grid-area: contact;
     background-image: linear-gradient(to bottom left, #654ade, #4899d0);
     text-align: center;
+    justify-items: space-between;
+    font-size: 10pt;
+    padding: 15px;
+    padding-top: 40px;
+    color: white;
     
 }
+
 #creds {
     grid-area: creds;
+    font-size: 10pt;
+    margin: 20px;
 }
 
 #pic {
@@ -29,8 +39,7 @@ body{
 }
 #name{
     font-size: 36pt;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
    
 }
 #title{
@@ -40,10 +49,27 @@ body{
 }
 #bio {
     grid-area: bio;
-    border-top: solid black 4px;;
+    border-top: solid black 4px;
 
 }
 #president {
     height: 120px;
     width: 96px;
+    filter: drop-shadow(-8px 8px gray);
+}
+.icon {
+    height: 30px;
+    width: 30px;
+    padding-top: 30px;
+    filter: invert(100%);
+}
+.subhead {
+    font-weight: bold;
+}
+h1 {
+    font-size: 18pt;
+    border-bottom: 2px solid black;
+}
+#turnwhite {
+    border-bottom: 2px solid white;
 }
